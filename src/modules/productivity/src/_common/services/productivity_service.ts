@@ -1,0 +1,1 @@
+export const checkMachineNameLength = (name: string):boolean => name.length > 8;

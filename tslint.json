@@ -1,0 +1,27 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "interface-over-type-literal": false,
+    "array-type": false,
+    "no-console": false,
+    "no-string-literal": false,
+    "interface-name": false,
+    "member-access": false,
+    "no-empty": false,
+    "member-ordering": false,
+    "no-shadowed-variable": false,
+    "semicolon": true,
+    "quotemark": [true, "double"],
+    "max-classes-per-file": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "wallaby.js",
+      "src/_common/i18n/message/*.ts"
+    ]
+  }
+}
